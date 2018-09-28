@@ -1,1 +1,1 @@
-web: gunicorn install gunicorn==19.9.0
+web: gunicorn message_board_project.wsgi --log-file -
